@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NosyActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:id="@+id/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Child's Runny Nose"
+        android:textSize="25dp"
+        android:textColor="#E71515"
+        />
+
+
+    <TextView
+
+        android:id="@+id/intro"
+        android:layout_below="@+id/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="                                                                    Introduction"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/para"
+        android:layout_below="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="
+
+    Small children have less immunity power and because of which they get illness very easily. Among many diseases of children, runny nose is a common but dangerous one. Many people do not call it a disease as it is caused easily and many times. Runny nose of child is an acute disease but can lead to chronic disease like pneumonia which may hamper throughout the life if it is neglected. The main factor responsible for runny nose or common cold is rhino virus but it is not the only factor."/>
+    <TextView
+
+        android:id="@+id/causee"
+        android:layout_below="@+id/para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:text="Causes"/>
+
+    <TextView
+
+        android:id="@+id/causeess"
+        android:layout_below="@+id/causee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+                                       ❄ Entry of cold virus or rhino virus into the body via mouth and nose
+                                                                                                              ❄ Use of contaminated handkerchief, towel, etc.
+                                                                                                                  ❄ Moving around dirt and dust
+                                                                                                                          ❄ Drinking contaminated water and eating contaminated food
+                                                                                                              ❄ Getting close contact with person suffering from common cold
+                                                                                                                     ❄ Being unable to blow nose effectively
+                                                                                                                  ❄ Moving or playing in the cold area"/>
+    <TextView
+
+        android:id="@+id/symp"
+        android:layout_below="@+id/causeess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text=" Symptoms"/>
+
+    <TextView
+
+        android:id="@+id/sympt"
+        android:layout_below="@+id/symp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❄ Watery eyes and nose
+                                                                                               ❄ Blocked nasal passage
+                                                                                                 ❄ Swollen nose
+                                                                                                  ❄ Fever and cough
+                                                                                                  ❄ Sneezing"/>
+
+
+    <TextView
+
+        android:id="@+id/trea"
+        android:layout_below="@+id/sympt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Treatment"/>
+
+
+    <TextView
+
+        android:id="@+id/treatt"
+        android:layout_below="@+id/trea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="1. Honey:
+    Pour two tablespoon of raw honey in the boiled warm water and give it to your child to drink for 2-3 times a day.
+
+
+                                                                                                    2. Saline solution:
+    Saline solution is made by adding 1/4 tablespoon of salt in a cup boiled cool water which is useful for the treatment of runny nose for both child and adult. Tip backward the head of your child, put 2/3 drops of solution in one of the nostrils and suck the excess mucus using bulb syringe by closing another nostril with your finger. Repeat this process for each nostrils 4-5 times a day.
+
+                                                        3. Steam:
+    Turn the bathroom into a steam room by closing the door and turning the shower on full hot. Take your child into the bathroom and sit there with your child for 10 to 15 minutes. Repeat this process 3-4 times a day.
+    You can apply other methods also to supply steam to your child as steam clears out the excess mucus."/>
+
+</RelativeLayout>
+
+</ScrollView>

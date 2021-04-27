@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsthmaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Introduction"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/intro1"
+            android:layout_below="@+id/intro"
+            android:text="Cough is the irritation and infection in the respiratory throat (especially neck and lungs). It's common disease in change of seasons. Cough is known as simple disease but it can result to the chronic disease if not cured in time."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/cause1"
+            android:layout_below="@+id/intro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+/>
+
+        <TextView
+            android:id="@+id/causee1"
+            android:layout_below="@+id/cause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❄ Seasonal Change
+                                                                                                                                                                                            ❄ Common Cold
+                                                                                                                                                                                   ❄ Fever
+                                                                                                                                                                   ❄ Smoking and drinking alcohol
+                                                                                                                                                                             ❄ Bacterial infection
+                                                                                                                                                                         ❄ Sinus infection"/>
+
+
+<TextView
+    android:id="@+id/symp1"
+    android:layout_below="@+id/causee1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Symptoms"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/symptt1"
+            android:layout_below="@+id/symp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❄ Chest pain
+                                                                                                   ❄ Running nose
+                                                                                           ❄ Itchiness in respiratory tract
+                                                                                        ❄ Pain during respiration
+                                                                                                ❄ Fracture in ribs
+                                                                                                       ❄ Sweating "
+
+/>
+
+        <TextView
+            android:id="@+id/treat1"
+            android:layout_below="@+id/symptt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treatment"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/treatt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/treat1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp"
+            android:text="
+1. Ginger:
+Peel the small piece of ginger and cut it into small slices. Boil the sliced ginger in water for two minutes, put little amount of honey and lemon juice in it. Then, serve it warm. Repeat this process three to four times a day until the cough is cured for several days.
+
+
+
+                                                                                                               2. Lemon:
+Lemon has an extra power of fighting with bacteria because of vitamin C in it. Mix two tablespoons of lemon juice with one tablespoon of honey. Add this mixture to one glass of boiled warm water and serve it three-four times a day until you feel well.
+
+                                                                                                          3. Turmeric:
+Put a tablespoon of turmeric powder in half-cup of boiling water. Add little amount of black pepper and cinnamon to it and boil for 3-4 minutes. Finally, add a tablespoon of honey and serve it two times daily until you feel relieved.
+
+                                                                                            4. Hot milk with honey:
+Boil a glass of milk in a bowl and add a tablespoon of honey to it. Serve it 2 times a day until you feel fine.
+
+                                                                                                                   5. Garlic:
+Mix 2-3 cloves of garlic with few drops of clove oil and a tablespoon of honey. Serve this daily to clear out your throat during cough.
+
+                                                                                                6. Other home remedies:
+Other home remedies for cough can be cough syrup of onion, cayenne pepper syrup, carrot juice with honey, etc." />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiabetesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Introduction"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/intro2"
+            android:layout_below="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes is a metabolic diseases that affects your body’s ability to produce or use a hormone called insulin because of high blood sugar level in the body. Diabetes is a disorder of the way the body uses digested food for energy i.e. metabolism. "
+            />
+
+        <TextView
+            android:id="@+id/causee2"
+            android:layout_below="@+id/intro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:id="@+id/causees2"
+            android:layout_below="@+id/causee2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❄ Type 1 diabetes is caused by a lack of insulin due to the destruction of insulin-producing beta cells in the pancreas.
+                                                                                               ❄ Type 2 Diabetes is caused by the resistance to produce enough insulin for proper function.
+                                                                                                       ❄ Obesity
+                                                                                                    ❄ Lack of exercise
+                                                                                                    ❄ Genetic Susceptibility
+                                                                                                       ❄ Autoimmune Destruction of Beta Cells
+                                                                                                    ❄ Environmental Factors
+                                                                                                   ❄ Abnormal Glucose Production by the Liver
+                                                                                                       ❄ Genetic Mutations Affecting Beta Cells, Insulin, and Insulin Action
+                                                                                                                  ❄ Damage to or Removal of the Pancreas"/>
+
+
+        <TextView
+            android:id="@+id/sympt2"
+            android:layout_below="@+id/causees2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+/>
+
+        <TextView
+            android:id="@+id/symptt2"
+            android:layout_below="@+id/sympt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❄ Excessive thirst
+                                                                                                                            ❄ Elevated blood sugar level
+                                                                                                                               ❄ Loss of glucose in the urine
+                                                                                                                                           ❄ Weight loss
+                                                                                                                                  ❄ Frequent urination
+                                                                                                                                        ❄ Slow-healing wounds
+                                                                                                                                            ❄ Numbness in the hands or feet
+                                                                                                                                         ❄ Blurry vision
+                                                                                                                                                    ❄ Extreme hunger
+                                                                                                                                                   ❄ Nausea and vomiting
+                                                                                                                                                    ❄ Slow-healing wounds
+                                                                                                                                                       ❄ Lack of interest concentration
+"/>
+
+        <TextView
+            android:id="@+id/treat2"
+            android:layout_below="@+id/symptt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treatment"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/treatt2"
+            android:layout_below="@+id/treat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+1. Basil leaves:
+Take 2 tablespoons of juice extracted from basil leaves and drink on an empty stomach in the morning.
+
+                                                                                                         2. Bitter Gourd:
+Drink some bitter gourd juice on an empty stomach each morning. First remove the seeds of two to three bitter gourds and use a juicer to extract the juice. Add some water and then drink it. Follow this treatment daily in the morning for at least two months.
+
+                                                                    3. Mango leaves:
+Boil 15 fresh Mango leaves in 1 glass of water. Leave overnight. Filter this water and drink first thing in the morning. Tender mango leaves are very effective to treat diabetes by regulating insulin levels in the blood.
+
+                                                                                  4. Fenugreek:
+Soak a few seeds (1/4 tsps) of fenugreek in water overnight. First thing after you brush your teeth in the morning, gulp down the fenugreek along with the water.
+
+                                                                                 5. Indian gooseberry (Amla):
+Extract the juice from the fruit and take 2 teaspoons of the juice mixed with a glass of water. Consume this drink daily in the morning on an empty stomach to keep your blood sugar level in control.
+
+                                                                                            6. Cinnamon:
+Boil two to four cinnamon sticks in one cup of water and allow it to steep for 20 minutes. Drink this solution daily until you see improvement.
+
+                                                                                            7. Indian blackberry (Jamun):
+Eat around 5 – 6 jamuns in the morning to control your blood sugar levels.
+
+                                                                                                  8. Neem:
+Drink the juice of the tender shoot of neem leaves on an empty stomach for best results."/>
+    </RelativeLayout>
+</ScrollView>

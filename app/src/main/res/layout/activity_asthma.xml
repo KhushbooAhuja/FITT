@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsthmaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Introduction"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/alle"
+        android:layout_below="@+id/intro"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:textStyle="bold"
+        android:text="Asthma is a common long term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm."/>
+
+    <TextView
+        android:id="@+id/cause"
+        android:layout_below="@+id/alle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+    android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+    android:text="Causes"/>
+
+
+    <TextView
+        android:id="@+id/causes"
+        android:layout_below="@+id/cause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❄ Allergies
+
+
+
+
+
+
+
+
+
+
+
+                                                                                  ❄ Smoke and tobacco
+
+
+                                                                    ❄ Environmental factors, like air pollution
+
+
+
+                                                                                                      ❄ Obesity
+
+
+                                                                                           ❄ Stress, tension, and depression
+                                                                                                   ❄ Genetics
+                                                                                           ❄ Lung infection during childhood
+                                                                                                      ❄ Premature birth
+                                                                                                       ❄ Certain foods, like fish, soy, eggs, peanuts, etc.
+                                                                                                                  ❄ Exercise
+                                                                                                 ❄ Heartburn"/>
+
+<TextView
+        android:id="@+id/symptom"
+    android:layout_below="@+id/causes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Symptoms"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/symptoms"
+        android:layout_below="@+id/symptom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❄ Shortness of breath
+                                                                                                      ❄ Chest tightness or pain
+                                                                                                   ❄ Chronic coughing
+                                                                                              ❄ Trouble sleeping due to coughing or wheezing"/>
+
+
+    <TextView
+        android:id="@+id/treat"
+        android:layout_below="@+id/symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treatment"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+    <TextView
+        android:id="@+id/treats"
+        android:layout_below="@+id/treat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+1. Ginger:
+Make a juice with equal quantities of ginger, pomegranate, and honey. Consume it 2-3 times a day for effective results.
+
+
+                                                                                       2. Mustard Oil:
+Take some mustard oil and mix camphor in it. Massage with it all over the chest, till you get relief from the asthma.
+
+                                                                                                            3. Eucalyptus Oil:
+Put a few drops of eucalyptus essential oil in a cup of boiling water and take its steam as it will help in opening up the nasal passages and air passages, so that air can pass through easily.
+
+                                                                                                   4. Honey:
+You can consume a teaspoon of honey mixed in hot water at least 2-3 times a day.
+                                                                                               5. Others Remedies:
+Onions, fruits and lemons, fishes, soup, warm milk, fennel seeds."/>
+    </RelativeLayout>
+</ScrollView>
